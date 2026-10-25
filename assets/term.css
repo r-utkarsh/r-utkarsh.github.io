@@ -227,12 +227,19 @@ a:hover {
 .row > * { min-width: 0; }
 
 .row.help  { --cols: 24ch minmax(0, 1fr); }
-.row.repo  { --cols: 10ch 10ch 5ch 24ch minmax(0, 1fr); }
+.row.repo  { --cols: 10ch 10ch 5ch 28ch minmax(0, 1fr); }
 .row.skill { --cols: 17ch minmax(0, 1fr); }
 .row.link  { --cols: 14ch minmax(0, 1fr); }
 .row.log   { --cols: 1ch 10ch 7ch minmax(0, 1fr); }
 .row.post  { --cols: 10ch minmax(0, 1fr); }
 .row.hist  { --cols: 5ch minmax(0, 1fr); }
+
+/* a long repo name is cut with "…" instead of running into the description column */
+.row.repo .nowrap {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
 
 .ls, .cands {
   display: flex;

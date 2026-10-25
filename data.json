@@ -137,7 +137,7 @@
       "short": "TempAdd Flux"
     },
     {
-      "name": "Medical Store Digital Catalogue",
+      "name": "Digital Medical Catalogue",
       "summary": "Full-stack product catalogue web app for pharmacy, enabling customers to search 1000+ products by name, brand, or active salt/composition with dynamic filtering.",
       "stack": [
         "JavaScript",
@@ -216,7 +216,7 @@
       "slug": "tempadd-flux"
     },
     {
-      "name": "Medical Store Digital Catalogue",
+      "name": "Digital Medical Catalogue",
       "description": "Full-stack pharmacy product catalogue searching 1000+ medicines with dynamic filtering",
       "language": "JavaScript",
       "stars": 0,
@@ -406,12 +406,5 @@
       "meta": "capsule-render & bmates-ui",
       "summary": "Active merged pull requests contributing to TypeScript component libraries and SVG generators."
     }
-  ],
-  "last_push": {
-    "repo": "r-utkarsh/Leetcode-Submissions",
-    "at": "2026-10-25T05:23:05Z",
-    "branch": "main",
-    "url": "https://github.com/r-utkarsh/Leetcode-Submissions",
-    "updated_at": "2026-10-25T14:50:30.022Z"
-  }
+  ]
 }
