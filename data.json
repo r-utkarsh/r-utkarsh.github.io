@@ -1,0 +1,417 @@
+{
+  "generated_at": "2026-10-23T11:45:00Z",
+  "source": "portfolio configuration for Utkarsh Rastogi",
+  "profile": {
+    "login": "r-utkarsh",
+    "name": "Utkarsh Rastogi",
+    "avatar_url": "https://avatars.githubusercontent.com/u/r-utkarsh",
+    "html_url": "https://github.com/r-utkarsh",
+    "location": "Ghaziabad, India",
+    "bio": "Full Stack Developer",
+    "tagline": "Full Stack Developer building modern web applications and scalable backends.",
+    "intro": "Crafting resilient software with Spring Boot, Node.js, and modern React.",
+    "proof": {
+      "text": "350+ LeetCode problems solved & active OSS contributor",
+      "link": "check stats →",
+      "url": "https://leetcode.com/u/utkarshrast0gi/"
+    },
+    "now": "Mastering Spring Boot enterprise patterns and daily DSA problem solving",
+    "followers": 15,
+    "following": 20,
+    "created_at": "2023-09-01T00:00:00Z",
+    "domain": "rast0gi",
+    "prompt_user": "utkarsh",
+    "focus": "Spring Boot & Modern Web Apps",
+    "leetcode": "350+ Questions Solved",
+    "about": [
+      "Building full-stack web applications with modern frontend architectures (React, Tailwind CSS, shadcn/ui) and engineering resilient backend services with Java & Spring Boot.",
+      "Strong advocate of clean architecture, daily algorithmic problem-solving (350+ LeetCode problems solved), and contributing to open-source software.",
+      "Currently deep into Spring Boot microservices, REST design, and distributed persistence."
+    ]
+  },
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/r-utkarsh",
+      "display": "github.com/r-utkarsh"
+    },
+    {
+      "label": "LeetCode",
+      "url": "https://leetcode.com/u/utkarshrast0gi/",
+      "display": "leetcode.com/u/utkarshrast0gi"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/utkarsh-rastogi-b90410298/",
+      "display": "linkedin.com/in/utkarsh-rastogi"
+    },
+    {
+      "label": "X (Twitter)",
+      "url": "https://x.com/UtkarshRas14290",
+      "display": "x.com/UtkarshRas14290"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:workrastogi@gmail.com",
+      "display": "workrastogi@gmail.com"
+    }
+  ],
+  "skills": [
+    {
+      "area": "Backend",
+      "items": [
+        "Spring Boot",
+        "Node.js",
+        "Express.js",
+        "Next.js",
+        "REST APIs",
+        "XML Parsing"
+      ]
+    },
+    {
+      "area": "Frontend",
+      "items": [
+        "React.js",
+        "Tailwind CSS",
+        "shadcn/ui"
+      ]
+    },
+    {
+      "area": "Languages",
+      "items": [
+        "Java",
+        "JavaScript",
+        "TypeScript",
+        "C",
+        "C++",
+        "SQL",
+        "Python"
+      ]
+    },
+    {
+      "area": "CS Fundamentals",
+      "items": [
+        "Data Structures & Algorithms (DSA)",
+        "Object-Oriented Programming (OOP)",
+        "Algorithm Design"
+      ]
+    },
+    {
+      "area": "Dev Tools",
+      "items": [
+        "Git",
+        "GitHub",
+        "npm",
+        "Postman",
+        "Chrome DevTools",
+        "Vite",
+        "ESLint",
+        "Prettier",
+        "Vercel"
+      ]
+    }
+  ],
+  "building": [
+    {
+      "name": "Spring Boot Backend Services",
+      "summary": "Architecting enterprise-grade REST APIs, JPA/Hibernate persistence, and scalable backend architecture in Java.",
+      "stack": [
+        "Java",
+        "Spring Boot",
+        "REST APIs",
+        "SQL"
+      ],
+      "url": "https://github.com/r-utkarsh"
+    }
+  ],
+  "featured": [
+    {
+      "name": "TempAdd Flux",
+      "summary": "Disposable email web app using mail.tm API — zero-signup temporary inbox with full HTML email rendering, 4s auto-polling, and <50ms session restore via localStorage.",
+      "stack": [
+        "JavaScript",
+        "REST API",
+        "Tailwind CSS"
+      ],
+      "url": "https://github.com/r-utkarsh",
+      "short": "TempAdd Flux"
+    },
+    {
+      "name": "Medical Store Digital Catalogue",
+      "summary": "Full-stack product catalogue web app for pharmacy, enabling customers to search 1000+ products by name, brand, or active salt/composition with dynamic filtering.",
+      "stack": [
+        "JavaScript",
+        "Python",
+        "Vercel"
+      ],
+      "url": "https://github.com/r-utkarsh",
+      "short": "Medical Catalogue"
+    },
+    {
+      "name": "Weather Card",
+      "summary": "Real-time weather data via OpenWeatherMap API with adaptive day/night theme and localStorage caching reducing redundant API calls by 80%.",
+      "stack": [
+        "JavaScript",
+        "REST API",
+        "CSS"
+      ],
+      "url": "https://github.com/r-utkarsh",
+      "short": "Weather Card"
+    }
+  ],
+  "contributions_prs": [
+    {
+      "repo": "r-utkarsh/capsule-render",
+      "name": "capsule-render",
+      "status": "Merged PR",
+      "date": "2026-10-16",
+      "url": "https://github.com/r-utkarsh/capsule-render"
+    },
+    {
+      "repo": "r-utkarsh/bmates-ui",
+      "name": "bmates-ui",
+      "status": "Merged PR",
+      "date": "2026-10-17",
+      "url": "https://github.com/r-utkarsh/bmates-ui"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "LeetCode 350+ Questions Solved",
+      "desc": "Resolved 350+ coding challenges spanning arrays, graphs, trees, and dynamic programming with consistent weekly streak.",
+      "url": "https://leetcode.com/u/utkarshrast0gi/"
+    }
+  ],
+  "certifications": [
+    {
+      "issuer": "Cisco Networking Academy",
+      "title": "Introduction to Data Science"
+    },
+    {
+      "issuer": "freeCodeCamp",
+      "title": "JavaScript Algorithms and Data Structures"
+    },
+    {
+      "issuer": "freeCodeCamp",
+      "title": "Responsive Web Design"
+    }
+  ],
+  "repos": [
+    {
+      "name": "TempAdd Flux",
+      "description": "Disposable email web app with zero-signup inbox, 4s polling & session persistence",
+      "language": "JavaScript",
+      "stars": 0,
+      "archived": false,
+      "topics": [
+        "email",
+        "disposable",
+        "api",
+        "tailwind"
+      ],
+      "homepage": null,
+      "url": "https://github.com/r-utkarsh",
+      "created_at": "2026-09-10T12:00:00Z",
+      "pushed_at": "2026-10-20T15:30:00Z",
+      "slug": "tempadd-flux"
+    },
+    {
+      "name": "Medical Store Digital Catalogue",
+      "description": "Full-stack pharmacy product catalogue searching 1000+ medicines with dynamic filtering",
+      "language": "JavaScript",
+      "stars": 0,
+      "archived": false,
+      "topics": [
+        "pharmacy",
+        "catalogue",
+        "fullstack",
+        "search"
+      ],
+      "homepage": null,
+      "url": "https://github.com/r-utkarsh",
+      "created_at": "2026-08-15T10:00:00Z",
+      "pushed_at": "2026-10-15T18:00:00Z",
+      "slug": "medical-store-catalogue"
+    },
+    {
+      "name": "Weather Card",
+      "description": "Real-time weather dashboard with adaptive day/night theme and 80% caching efficiency",
+      "language": "JavaScript",
+      "stars": 0,
+      "archived": false,
+      "topics": [
+        "weather",
+        "api",
+        "cache",
+        "dashboard"
+      ],
+      "homepage": null,
+      "url": "https://github.com/r-utkarsh",
+      "created_at": "2026-07-20T08:00:00Z",
+      "pushed_at": "2026-10-01T12:00:00Z",
+      "slug": "weather-card"
+    },
+    {
+      "name": "bmates-ui",
+      "description": "Modern UI component library (Open Source Contribution - Merged PR)",
+      "language": "TypeScript",
+      "stars": 0,
+      "archived": false,
+      "topics": [
+        "open-source",
+        "ui",
+        "components"
+      ],
+      "homepage": null,
+      "url": "https://github.com/r-utkarsh/bmates-ui",
+      "created_at": "2026-10-17T09:00:00Z",
+      "pushed_at": "2026-10-17T16:00:00Z",
+      "slug": "bmates-ui"
+    },
+    {
+      "name": "capsule-render",
+      "description": "Dynamic GitHub header image generator (Open Source Contribution - Merged PR)",
+      "language": "TypeScript",
+      "stars": 0,
+      "archived": false,
+      "topics": [
+        "open-source",
+        "svg",
+        "generator"
+      ],
+      "homepage": null,
+      "url": "https://github.com/r-utkarsh/capsule-render",
+      "created_at": "2026-10-16T10:00:00Z",
+      "pushed_at": "2026-10-16T14:00:00Z",
+      "slug": "capsule-render"
+    },
+    {
+      "name": "Leetcode-Submissions",
+      "description": "Solutions and analysis for 350+ LeetCode problems in Java and C++",
+      "language": "Java",
+      "stars": 0,
+      "archived": false,
+      "topics": [
+        "leetcode",
+        "dsa",
+        "algorithms",
+        "java"
+      ],
+      "homepage": null,
+      "url": "https://leetcode.com/u/utkarshrast0gi/",
+      "created_at": "2024-01-15T00:00:00Z",
+      "pushed_at": "2026-10-22T20:00:00Z",
+      "slug": "leetcode-submissions"
+    }
+  ],
+  "activity": [
+    {
+      "at": "2026-10-22T20:00:00Z",
+      "kind": "push",
+      "repo": "r-utkarsh/Leetcode-Submissions",
+      "branch": "main",
+      "count": 3,
+      "url": "https://leetcode.com/u/utkarshrast0gi/"
+    },
+    {
+      "at": "2026-10-20T15:30:00Z",
+      "kind": "push",
+      "repo": "r-utkarsh/TempAdd-Flux",
+      "branch": "main",
+      "count": 2,
+      "url": "https://github.com/r-utkarsh"
+    },
+    {
+      "at": "2026-10-17T16:00:00Z",
+      "kind": "pr",
+      "action": "merged",
+      "repo": "Bandmators/bmates-ui",
+      "number": 12,
+      "title": "fix: component layout and TypeScript type exports",
+      "url": "https://github.com/r-utkarsh/bmates-ui"
+    },
+    {
+      "at": "2026-10-16T14:00:00Z",
+      "kind": "pr",
+      "action": "merged",
+      "repo": "kyechan99/capsule-render",
+      "number": 88,
+      "title": "feat: header rendering improvements",
+      "url": "https://github.com/r-utkarsh/capsule-render"
+    },
+    {
+      "at": "2026-10-15T18:00:00Z",
+      "kind": "push",
+      "repo": "r-utkarsh/medical-store-catalogue",
+      "branch": "main",
+      "count": 4,
+      "url": "https://github.com/r-utkarsh"
+    }
+  ],
+  "contributions": {
+    "username": "r-utkarsh",
+    "total": null,
+    "updated_at": null,
+    "days": []
+  },
+  "posts": [
+    {
+      "slug": "journey-with-spring-boot",
+      "title": "Diving into Spring Boot: Why Java for Enterprise Backends",
+      "date": "2026-10-18",
+      "tags": [
+        "spring-boot",
+        "java",
+        "backend"
+      ],
+      "summary": "Exploring dependency injection, JPA/Hibernate, and building robust REST services.",
+      "minutes": 2,
+      "content": "### Why Spring Boot?\n\nAs someone passionate about building scalable backends, moving from Node.js and Express to **Spring Boot** opened up an entire world of enterprise software patterns.\n\n#### Key Learnings So Far:\n- **Dependency Injection & Inversion of Control**: How Spring manages bean lifecycle cleanly.\n- **Spring Data JPA**: Simplifying data access with repositories without boilerplate JDBC code.\n- **REST Architecture**: Clean separation between Controllers, Services, and Repositories.\n\nSpring Boot provides the rock-solid structure and type safety that large distributed systems require."
+    },
+    {
+      "slug": "leetcode-350-insights",
+      "title": "What Solving 350+ LeetCode Questions Taught Me",
+      "date": "2026-09-25",
+      "tags": [
+        "dsa",
+        "leetcode",
+        "algorithms"
+      ],
+      "summary": "Key takeaways on problem breakdown, pattern recognition, and consistency.",
+      "minutes": 2,
+      "content": "### Consistency Over Intensity\n\nCrossing the 350+ problems mark on LeetCode taught me that problem solving isn't about memorizing solutions—it's about **pattern recognition**.\n\n#### The Big Patterns:\n- **Two Pointers & Sliding Window** for substring and array subarray problems.\n- **BFS vs DFS**: When to traverse level-by-level vs deep path exploration.\n- **Dynamic Programming**: Breaking down subproblems and defining transition states.\n\nDaily consistency beats weekend cramming every single time."
+    },
+    {
+      "slug": "first-open-source-pr",
+      "title": "Getting My First Open Source PRs Merged",
+      "date": "2026-10-17",
+      "tags": [
+        "open-source",
+        "git",
+        "typescript"
+      ],
+      "summary": "My experience contributing to capsule-render and bmates-ui.",
+      "minutes": 2,
+      "content": "### Contributing to the Community\n\nThere's nothing quite like the feeling of seeing the green `Merged` badge on an open-source pull request.\n\nRecently, I had PRs merged in:\n1. **capsule-render**: Working with SVG rendering and dynamic GitHub headers.\n2. **bmates-ui**: Fixing component export types in TypeScript.\n\nOpen source teaches you how to read other people's codebases, communicate concisely in PR discussions, and respect established linting and testing suites."
+    }
+  ],
+  "practice": [
+    {
+      "name": "LeetCode & DSA Problem Solving",
+      "meta": "350+ solved",
+      "summary": "Daily commitment to algorithmic problem solving across Arrays, Graphs, Trees, and Dynamic Programming."
+    },
+    {
+      "name": "Open Source Contributions",
+      "meta": "capsule-render & bmates-ui",
+      "summary": "Active merged pull requests contributing to TypeScript component libraries and SVG generators."
+    }
+  ],
+  "last_push": {
+    "repo": "r-utkarsh/Leetcode-Submissions",
+    "at": "2026-10-25T05:23:05Z",
+    "branch": "main",
+    "url": "https://github.com/r-utkarsh/Leetcode-Submissions",
+    "updated_at": "2026-10-25T14:50:30.022Z"
+  }
+}

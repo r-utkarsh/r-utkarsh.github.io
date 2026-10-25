@@ -1,0 +1,12 @@
+{
+  "name": "terminal-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Interactive terminal-style portfolio for Utkarsh Rastogi",
+  "scripts": {
+    "start": "npx --yes serve .",
+    "contrib": "node scripts/update-contributions.mjs",
+    "lastpush": "node scripts/update-last-push.mjs"
+  }
+}

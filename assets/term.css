@@ -1,0 +1,512 @@
+/* ─── Design tokens ─────────────────────────────────────────── */
+:root {
+  --bg:     #0b0e14;    /* page background — near-black blue */
+  --bg-2:   #11151d;    /* chip bar, code blocks */
+  --line:   #262c36;    /* borders, rules */
+  --fg:     #d6dde6;    /* primary text */
+  --dim:    #8b949e;    /* secondary text */
+  --green:  #7ee787;    /* user, command names, success */
+  --blue:   #79c0ff;    /* paths, repo names, clickable items */
+  --yellow: #e3b341;    /* headings, stars, focus ring */
+  --purple: #d2a8ff;    /* tags, skill areas */
+  --red:    #ff7b72;    /* errors */
+  --orange: #ffa657;
+  --cyan:   #56d4dd;    /* links, topics */
+  --sel:    #264f78;    /* text selection */
+  --chips-h: 56px;
+
+  /* contribution heatmap levels */
+  --h0: #1d232c;
+  --h1: #0e4429;
+  --h2: #006d32;
+  --h3: #26a641;
+  --h4: #39d353;
+
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--bg);
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  color: var(--fg);
+  font: 14px/1.55 "JetBrains Mono", ui-monospace, SFMono-Regular,
+        Menlo, Consolas, "Liberation Mono", monospace;
+  font-variant-ligatures: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--sel);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--yellow);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ─── Terminal container ────────────────────────────────────── */
+#term {
+  flex: 1;
+  padding: 20px 24px 16px;
+  padding-left: max(24px, env(safe-area-inset-left));
+  padding-right: max(24px, env(safe-area-inset-right));
+  cursor: text;
+}
+
+/* Whitespace collapses normally; only the elements that need
+   preserved spaces (.logo, .cmd-echo, pre) opt in. This is what
+   keeps stray blank lines out of the output. */
+#out {
+  overflow-wrap: anywhere;
+}
+
+/* ─── Prompt row ────────────────────────────────────────────── */
+#line {
+  display: flex;
+  align-items: baseline;
+  gap: 1ch;
+  margin-top: 12px;
+  scroll-margin-bottom: calc(var(--chips-h) + 16px);
+}
+
+#out:empty + #line {
+  margin-top: 0;
+}
+
+.ps1 {
+  font-weight: 700;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.ps1 .u    { color: var(--green); }
+.ps1 .host { color: var(--green); font-weight: 400; }
+.ps1 .p    { color: var(--blue); }
+
+#cmd {
+  flex: 1;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--fg);
+  font: inherit;
+  caret-color: var(--green);
+}
+
+#cmd:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+/* ─── Output entries ────────────────────────────────────────── */
+.entry {
+  margin-bottom: 16px;
+}
+
+.echo {
+  margin-bottom: 6px;
+  color: var(--fg);
+}
+
+.echo .ps1 {
+  margin-right: 1ch;
+}
+
+.echo .cmd-echo {
+  font-weight: 700;
+  white-space: pre-wrap;
+}
+
+.blk {
+  line-height: 1.55;
+}
+
+/* ─── Text helpers ──────────────────────────────────────────── */
+.dim    { color: var(--dim); }
+.g      { color: var(--green); }
+.b      { font-weight: 700; }
+.y      { color: var(--yellow); }
+.bl     { color: var(--blue); }
+.c      { color: var(--cyan); }
+.p      { color: var(--purple); }
+.r      { color: var(--red); }
+.o      { color: var(--orange); }
+.white  { color: #ffffff; }
+.ind    { padding-left: 2ch; }
+.ind12  { padding-left: 12ch; }
+.nowrap { white-space: nowrap; }
+.mt     { margin-top: 6px; }
+.mt4    { margin-top: 4px; }
+.mt10   { margin-top: 10px; }
+.sp     { margin-top: 1.55em; }
+.clip   { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+code {
+  color: var(--green);
+}
+
+mark {
+  background: #5a4a12;
+  color: #fff3c4;
+}
+
+/* ─── Languages ─────────────────────────────────────────────── */
+.lang-python     { color: var(--blue); }
+.lang-rust       { color: var(--orange); }
+.lang-typescript { color: var(--purple); }
+.lang-swift      { color: var(--red); }
+.lang-go         { color: var(--cyan); }
+.lang-javascript { color: var(--yellow); }
+.lang-java       { color: #f89820; }
+.lang-c,
+.lang-cpp        { color: #5c8dbc; }
+.lang-sql        { color: #00758f; }
+.lang-none       { color: var(--dim); }
+
+/* ─── Clickable things in output ────────────────────────────── */
+button.run {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--blue);
+  font: inherit;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: transparent;
+  transition: text-decoration-color 0.1s ease;
+}
+
+button.run:hover               { text-decoration-color: var(--blue); }
+button.run.cmdname             { color: var(--green); }
+button.run.cmdname:hover       { text-decoration-color: var(--green); }
+button.run.bl                  { color: var(--blue); }
+button.run.file                { color: var(--fg); font-weight: 400; }
+button.run.file:hover          { text-decoration-color: var(--fg); }
+
+a {
+  color: var(--cyan);
+  text-decoration: underline;
+  text-decoration-color: rgba(86, 212, 221, 0.45);
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-color: var(--cyan);
+}
+
+/* ─── Column layouts (help, repos, skills, links, log…) ─────── */
+.row {
+  display: grid;
+  grid-template-columns: var(--cols, 1fr);
+  column-gap: 2ch;
+  align-items: baseline;
+}
+
+.row > * { min-width: 0; }
+
+.row.help  { --cols: 24ch minmax(0, 1fr); }
+.row.repo  { --cols: 10ch 10ch 5ch 24ch minmax(0, 1fr); }
+.row.skill { --cols: 17ch minmax(0, 1fr); }
+.row.link  { --cols: 14ch minmax(0, 1fr); }
+.row.log   { --cols: 1ch 10ch 7ch minmax(0, 1fr); }
+.row.post  { --cols: 10ch minmax(0, 1fr); }
+.row.hist  { --cols: 5ch minmax(0, 1fr); }
+
+.ls, .cands {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 3ch;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 2ch;
+}
+
+/* ─── Neofetch ──────────────────────────────────────────────── */
+.fetch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 4ch;
+  align-items: flex-start;
+}
+
+.logo {
+  flex: 1 0 100%;
+  margin: 6px 0 14px;
+  white-space: pre;
+  line-height: 1;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "DejaVu Sans Mono", monospace;
+  font-size: 14px;
+  user-select: none;
+}
+
+.logo-wide   { display: block; }
+.logo-narrow { display: none; }
+
+.motto {
+  flex: 1 0 100%;
+  margin: -4px 0 16px;
+  line-height: 1.5;
+}
+
+.sh {
+  color: #2f5b52 !important;
+}
+
+.fetch-info {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  column-gap: 2ch;
+  line-height: 1.6;
+}
+
+.fetch-info .fi-title { grid-column: 1 / -1; }
+
+.swatches {
+  grid-column: 1 / -1;
+  display: flex;
+  margin-top: 8px;
+}
+
+.swatches span {
+  display: inline-block;
+  width: 2.5ch;
+  height: 1.25em;
+}
+
+.swatch-r  { background: #ff7b72; }
+.swatch-o  { background: #ffa657; }
+.swatch-y  { background: #e3b341; }
+.swatch-g  { background: #7ee787; }
+.swatch-c  { background: #56d4dd; }
+.swatch-bl { background: #79c0ff; }
+.swatch-pu { background: #d2a8ff; }
+.swatch-h  { background: #d6dde6; }
+
+/* ─── Contribution heatmap ──────────────────────────────────── */
+.heatmap-wrap {
+  margin: 12px 0 6px;
+  overflow-x: auto;
+}
+
+.heatmap-svg {
+  display: block;
+  cursor: pointer;
+}
+
+.heatmap-svg text {
+  fill: var(--dim);
+  font-family: inherit;
+  font-size: 9px;
+  user-select: none;
+}
+
+.heatmap-svg .h0, .heat .h0 { fill: var(--h0); }
+.heatmap-svg .h1, .heat .h1 { fill: var(--h1); }
+.heatmap-svg .h2, .heat .h2 { fill: var(--h2); }
+.heatmap-svg .h3, .heat .h3 { fill: var(--h3); }
+.heatmap-svg .h4, .heat .h4 { fill: var(--h4); }
+
+.heatmap-legend {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--dim);
+  margin-top: 6px;
+}
+
+.heatmap-legend svg {
+  vertical-align: middle;
+}
+
+/* ─── Blog post view ────────────────────────────────────────── */
+.post {
+  max-width: 80ch;
+  line-height: 1.65;
+}
+
+.post .ptitle { font-size: 1.15em; }
+
+.post .rule {
+  border-top: 1px solid var(--line);
+  margin: 8px 0 10px;
+}
+
+.post .ph {
+  color: var(--yellow);
+  font-weight: 700;
+  margin: 12px 0 4px;
+}
+
+.post .ph .hash {
+  color: var(--dim);
+  font-weight: 400;
+  margin-right: 1ch;
+}
+
+.post p { margin: 0 0 10px; }
+
+.post ul,
+.post ol {
+  margin: 0 0 10px;
+  list-style: none;
+  counter-reset: item;
+}
+
+.post li {
+  position: relative;
+  padding-left: 3ch;
+  counter-increment: item;
+}
+
+.post ul li::before {
+  content: "•";
+  position: absolute;
+  left: 1ch;
+  color: var(--dim);
+}
+
+.post ol li::before {
+  content: counter(item) ".";
+  position: absolute;
+  left: 0;
+  color: var(--dim);
+}
+
+.post pre {
+  margin: 0 0 10px;
+  padding: 10px 12px;
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  overflow-x: auto;
+  white-space: pre;
+}
+
+.post pre code { color: var(--fg); }
+
+/* ─── Sticky quick-command chip bar ─────────────────────────── */
+#chips {
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 10px 24px;
+  padding-bottom: calc(10px + env(safe-area-inset-bottom));
+  background: var(--bg-2);
+  border-top: 1px solid var(--line);
+}
+
+#chips[hidden] { display: none; }
+
+#chips::-webkit-scrollbar { display: none; }
+
+#chips button {
+  flex: none;
+  min-height: 34px;
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--fg);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+#chips button::before {
+  content: "$ ";
+  color: var(--dim);
+}
+
+#chips button:hover {
+  border-color: var(--dim);
+  background: #151a24;
+}
+
+#chips button:active {
+  transform: scale(0.98);
+}
+
+/* ─── Responsive ────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  /* the wide logo is ~67 columns; below this width switch to the
+     stacked two-line version and shrink it to fit (whole pixels
+     only, so block rows never show seams) */
+  .logo-wide   { display: none; }
+  .logo-narrow {
+    display: block;
+    font-size: 13px;
+    font-size: min(13px, calc((100vw - 32px) / 23.4));
+    font-size: round(down, min(13px, calc((100vw - 32px) / 23.4)), 1px);
+  }
+
+  body { font-size: 13px; }
+
+  #term  { padding: 14px 16px 12px; }
+  #chips { padding: 10px 16px; padding-bottom: calc(10px + env(safe-area-inset-bottom)); }
+
+  .ps1 .host { display: none; }
+
+  .ind12 { padding-left: 2ch; }
+
+  /* tables stack: first line is the key facts, description wraps below */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2ch;
+  }
+
+  .row .desc {
+    flex: 1 0 100%;
+    padding-left: 2ch;
+    white-space: normal;
+  }
+
+  .row.skill > :first-child { flex: 1 0 100%; }
+  .row.skill > :last-child  { flex: 1 0 100%; padding-left: 2ch; }
+  .row.help > :first-child  { flex: none; }
+  .row.help > :last-child   { flex: 1 1 14ch; }
+  .row.link > :first-child  { flex: none; min-width: 14ch; }
+  .row.log  > :last-child   { flex: 1 0 100%; padding-left: 2ch; }
+  .row.post > :first-child  { flex: none; }
+}
+
+@media (pointer: coarse) {
+  #cmd { font-size: 16px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  button.run, #chips button { transition: none; }
+}
