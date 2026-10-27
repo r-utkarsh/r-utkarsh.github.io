@@ -350,8 +350,8 @@
   ],
   "contributions": {
     "username": "r-utkarsh",
-    "total": 445,
-    "updated_at": "2026-10-26T06:18:05.267Z",
+    "total": 453,
+    "updated_at": "2026-10-27T06:19:56.994Z",
     "days": [
       {
         "date": "2025-10-26",
@@ -2180,8 +2180,13 @@
       },
       {
         "date": "2026-10-26",
-        "count": 2,
-        "level": 1
+        "count": 10,
+        "level": 3
+      },
+      {
+        "date": "2026-10-27",
+        "count": 0,
+        "level": 0
       }
     ]
   },
@@ -2239,10 +2244,10 @@
     }
   ],
   "last_push": {
-    "repo": "r-utkarsh/r-utkarsh.github.io",
-    "at": "2026-10-25T17:31:31Z",
+    "repo": "r-utkarsh/Leetcode-Submissions",
+    "at": "2026-10-26T11:00:42Z",
     "branch": "main",
-    "url": "https://github.com/r-utkarsh/r-utkarsh.github.io",
-    "updated_at": "2026-10-26T06:18:06.430Z"
+    "url": "https://github.com/r-utkarsh/Leetcode-Submissions",
+    "updated_at": "2026-10-27T06:19:58.070Z"
   }
 }
