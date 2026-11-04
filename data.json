@@ -2195,8 +2195,8 @@
       },
       {
         "date": "2026-10-29",
-        "count": 0,
-        "level": 0
+        "count": 1000,
+        "level": 5
       }
     ]
   },
@@ -2254,10 +2254,10 @@
     }
   ],
   "last_push": {
-    "repo": "r-utkarsh/Leetcode-Submissions",
-    "at": "2026-10-27T08:09:21Z",
+    "repo": "r-utkarsh/bookwell",
+    "at": "2026-11-02T16:25:24Z",
     "branch": "main",
-    "url": "https://github.com/r-utkarsh/Leetcode-Submissions",
-    "updated_at": "2026-10-29T07:09:36.885Z"
+    "url": "https://github.com/r-utkarsh/bookwell",
+    "updated_at": "2026-11-04T18:37:10.796Z"
   }
 }
