@@ -350,8 +350,8 @@
   ],
   "contributions": {
     "username": "r-utkarsh",
-    "total": 545,
-    "updated_at": "2026-11-10T08:27:21.719Z",
+    "total": 553,
+    "updated_at": "2026-11-11T07:46:06.396Z",
     "days": [
       {
         "date": "2025-11-09",
@@ -2185,8 +2185,13 @@
       },
       {
         "date": "2026-11-10",
-        "count": 0,
-        "level": 0
+        "count": 4,
+        "level": 1
+      },
+      {
+        "date": "2026-11-11",
+        "count": 4,
+        "level": 1
       }
     ]
   },
@@ -2244,10 +2249,10 @@
     }
   ],
   "last_push": {
-    "repo": "r-utkarsh/bookwell",
-    "at": "2026-11-09T17:26:35Z",
+    "repo": "r-utkarsh/Leetcode-Submissions",
+    "at": "2026-11-10T10:23:03Z",
     "branch": "main",
-    "url": "https://github.com/r-utkarsh/bookwell",
-    "updated_at": "2026-11-10T08:27:22.983Z"
+    "url": "https://github.com/r-utkarsh/Leetcode-Submissions",
+    "updated_at": "2026-11-11T07:46:07.345Z"
   }
 }
