@@ -7,6 +7,7 @@
   "scripts": {
     "start": "npx --yes serve .",
     "contrib": "node scripts/update-contributions.mjs",
-    "lastpush": "node scripts/update-last-push.mjs"
+    "lastpush": "node scripts/update-last-push.mjs",
+    "repos": "node scripts/update-repos.mjs"
   }
 }
