@@ -1,6 +1,7 @@
 # Daily refresh of the GitHub-derived parts of data.json:
 #   - contributions calendar  (scripts/update-contributions.mjs)
 #   - most recent push        (scripts/update-last-push.mjs)
+#   - owned public repositories (scripts/update-repos.mjs)
 # and commit the result back to the repo. Does nothing until this file is pushed to GitHub.
 #
 # Optional secret CONTRIB_TOKEN: a personal access token (no scopes needed for public data).
@@ -40,6 +41,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: node scripts/update-last-push.mjs
+
+      - name: Update repositories
+        if: ${{ !cancelled() }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/update-repos.mjs
 
       - name: Commit data.json
         if: ${{ !cancelled() }}

@@ -198,110 +198,111 @@
   ],
   "repos": [
     {
-      "name": "TempAdd Flux",
-      "description": "Disposable email web app with zero-signup inbox, 4s polling & session persistence",
-      "language": "JavaScript",
-      "stars": 0,
-      "archived": false,
-      "topics": [
-        "email",
-        "disposable",
-        "api",
-        "tailwind"
-      ],
-      "homepage": null,
-      "url": "https://github.com/r-utkarsh",
-      "created_at": "2026-09-10T12:00:00Z",
-      "pushed_at": "2026-10-20T15:30:00Z",
-      "slug": "tempadd-flux"
-    },
-    {
-      "name": "Digital Medical Catalogue",
-      "description": "Full-stack pharmacy product catalogue searching 1000+ medicines with dynamic filtering",
-      "language": "JavaScript",
-      "stars": 0,
-      "archived": false,
-      "topics": [
-        "pharmacy",
-        "catalogue",
-        "fullstack",
-        "search"
-      ],
-      "homepage": null,
-      "url": "https://github.com/r-utkarsh",
-      "created_at": "2026-08-15T10:00:00Z",
-      "pushed_at": "2026-10-15T18:00:00Z",
-      "slug": "medical-store-catalogue"
-    },
-    {
-      "name": "Weather Card",
-      "description": "Real-time weather dashboard with adaptive day/night theme and 80% caching efficiency",
-      "language": "JavaScript",
-      "stars": 0,
-      "archived": false,
-      "topics": [
-        "weather",
-        "api",
-        "cache",
-        "dashboard"
-      ],
-      "homepage": null,
-      "url": "https://github.com/r-utkarsh",
-      "created_at": "2026-07-20T08:00:00Z",
-      "pushed_at": "2026-10-01T12:00:00Z",
-      "slug": "weather-card"
-    },
-    {
-      "name": "bmates-ui",
-      "description": "Modern UI component library (Open Source Contribution - Merged PR)",
-      "language": "TypeScript",
-      "stars": 0,
-      "archived": false,
-      "topics": [
-        "open-source",
-        "ui",
-        "components"
-      ],
-      "homepage": null,
-      "url": "https://github.com/r-utkarsh/bmates-ui",
-      "created_at": "2026-10-17T09:00:00Z",
-      "pushed_at": "2026-10-17T16:00:00Z",
-      "slug": "bmates-ui"
-    },
-    {
-      "name": "capsule-render",
-      "description": "Dynamic GitHub header image generator (Open Source Contribution - Merged PR)",
-      "language": "TypeScript",
-      "stars": 0,
-      "archived": false,
-      "topics": [
-        "open-source",
-        "svg",
-        "generator"
-      ],
-      "homepage": null,
-      "url": "https://github.com/r-utkarsh/capsule-render",
-      "created_at": "2026-10-16T10:00:00Z",
-      "pushed_at": "2026-10-16T14:00:00Z",
-      "slug": "capsule-render"
-    },
-    {
       "name": "Leetcode-Submissions",
       "description": "Solutions and analysis for 350+ LeetCode problems in Java and C++",
       "language": "Java",
       "stars": 0,
       "archived": false,
-      "topics": [
-        "leetcode",
-        "dsa",
-        "algorithms",
-        "java"
-      ],
+      "topics": [],
       "homepage": null,
-      "url": "https://leetcode.com/u/utkarshrast0gi/",
-      "created_at": "2024-01-15T00:00:00Z",
-      "pushed_at": "2026-10-22T20:00:00Z",
+      "url": "https://github.com/r-utkarsh/Leetcode-Submissions",
+      "created_at": "2026-08-10T03:14:21Z",
+      "pushed_at": "2026-11-13T11:02:41Z",
       "slug": "leetcode-submissions"
+    },
+    {
+      "name": "r-utkarsh.github.io",
+      "description": "",
+      "language": "JavaScript",
+      "stars": 0,
+      "archived": false,
+      "topics": [],
+      "homepage": null,
+      "url": "https://github.com/r-utkarsh/r-utkarsh.github.io",
+      "created_at": "2026-10-15T17:45:14Z",
+      "pushed_at": "2026-11-13T08:02:18Z",
+      "slug": "r-utkarsh.github.io"
+    },
+    {
+      "name": "interviewPrepPlatform",
+      "description": "",
+      "language": "Java",
+      "stars": 0,
+      "archived": false,
+      "topics": [],
+      "homepage": null,
+      "url": "https://github.com/r-utkarsh/interviewPrepPlatform",
+      "created_at": "2026-11-02T15:07:57Z",
+      "pushed_at": "2026-11-12T18:31:55Z",
+      "slug": "interviewprepplatform"
+    },
+    {
+      "name": "bookwell",
+      "description": "",
+      "language": "Java",
+      "stars": 0,
+      "archived": false,
+      "topics": [],
+      "homepage": "https://bookwell-ruddy.vercel.app",
+      "url": "https://github.com/r-utkarsh/bookwell",
+      "created_at": "2026-10-30T09:27:07Z",
+      "pushed_at": "2026-11-09T17:26:34Z",
+      "slug": "bookwell"
+    },
+    {
+      "name": "r-utkarsh",
+      "description": "Config files for my GitHub profile.",
+      "language": "Shell",
+      "stars": 0,
+      "archived": false,
+      "topics": [
+        "config",
+        "github-config"
+      ],
+      "homepage": "https://github.com/r-utkarsh",
+      "url": "https://github.com/r-utkarsh/r-utkarsh",
+      "created_at": "2024-07-12T13:40:30Z",
+      "pushed_at": "2026-11-09T10:09:07Z",
+      "slug": "r-utkarsh"
+    },
+    {
+      "name": "tempAdd",
+      "description": "a temporary mail creator",
+      "language": "JavaScript",
+      "stars": 0,
+      "archived": false,
+      "topics": [],
+      "homepage": "https://temp-add.vercel.app",
+      "url": "https://github.com/r-utkarsh/tempAdd",
+      "created_at": "2026-06-06T00:32:14Z",
+      "pushed_at": "2026-06-24T20:08:15Z",
+      "slug": "tempadd"
+    },
+    {
+      "name": "WeatherCard",
+      "description": "",
+      "language": "HTML",
+      "stars": 0,
+      "archived": false,
+      "topics": [],
+      "homepage": null,
+      "url": "https://github.com/r-utkarsh/WeatherCard",
+      "created_at": "2026-05-31T12:27:58Z",
+      "pushed_at": "2026-05-31T12:33:47Z",
+      "slug": "weathercard"
+    },
+    {
+      "name": "Practice",
+      "description": "",
+      "language": "Java",
+      "stars": 0,
+      "archived": false,
+      "topics": [],
+      "homepage": null,
+      "url": "https://github.com/r-utkarsh/Practice",
+      "created_at": "2025-03-18T11:30:04Z",
+      "pushed_at": "2025-04-14T17:58:09Z",
+      "slug": "practice"
     }
   ],
   "activity": [
@@ -2264,5 +2265,6 @@
     "branch": "main",
     "url": "https://github.com/r-utkarsh/Leetcode-Submissions",
     "updated_at": "2026-11-13T08:02:17.530Z"
-  }
+  },
+  "repos_updated_at": "2026-11-13T14:01:58.577Z"
 }

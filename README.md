@@ -10,7 +10,9 @@ terminal-portfolio/
 │   ├── term.css                    design tokens + styles
 │   └── term.js                     the shell: commands, history, tab-completion, rendering
 ├── scripts/
-│   └── update-contributions.mjs    fetches your real contribution calendar into data.json
+│   ├── update-contributions.mjs    fetches your real contribution calendar into data.json
+│   ├── update-last-push.mjs        fetches your latest public push into data.json
+│   └── update-repos.mjs            syncs your owned public repositories into data.json
 └── package.json                    `npm start`, `npm run contrib`
 ```
 
@@ -56,6 +58,14 @@ $env:GITHUB_TOKEN="ghp_xxx"; npm run contrib
 ```
 
 Re-run it whenever you want the calendar refreshed, then redeploy.
+
+To refresh the repositories shown by `ls repos`:
+
+```
+npm run repos
+```
+
+The daily GitHub Actions workflow runs all of these refreshes automatically.
 
 ## Commands
 
