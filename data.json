@@ -198,19 +198,6 @@
   ],
   "repos": [
     {
-      "name": "r-utkarsh.github.io",
-      "description": "",
-      "language": "JavaScript",
-      "stars": 0,
-      "archived": false,
-      "topics": [],
-      "homepage": null,
-      "url": "https://github.com/r-utkarsh/r-utkarsh.github.io",
-      "created_at": "2026-10-15T17:45:14Z",
-      "pushed_at": "2026-11-14T07:38:16Z",
-      "slug": "r-utkarsh.github.io"
-    },
-    {
       "name": "Leetcode-Submissions",
       "description": "Solutions and analysis for 350+ LeetCode problems in Java and C++",
       "language": "Java",
@@ -220,8 +207,21 @@
       "homepage": null,
       "url": "https://github.com/r-utkarsh/Leetcode-Submissions",
       "created_at": "2026-08-10T03:14:21Z",
-      "pushed_at": "2026-11-13T11:02:41Z",
+      "pushed_at": "2026-11-16T05:10:51Z",
       "slug": "leetcode-submissions"
+    },
+    {
+      "name": "r-utkarsh.github.io",
+      "description": "",
+      "language": "JavaScript",
+      "stars": 0,
+      "archived": false,
+      "topics": [],
+      "homepage": null,
+      "url": "https://github.com/r-utkarsh/r-utkarsh.github.io",
+      "created_at": "2026-10-15T17:45:14Z",
+      "pushed_at": "2026-11-15T07:53:22Z",
+      "slug": "r-utkarsh.github.io"
     },
     {
       "name": "interviewPrepPlatform",
@@ -351,8 +351,8 @@
   ],
   "contributions": {
     "username": "r-utkarsh",
-    "total": 566,
-    "updated_at": "2026-11-15T07:53:19.407Z",
+    "total": 570,
+    "updated_at": "2026-11-16T08:01:20.559Z",
     "days": [
       {
         "date": "2025-11-16",
@@ -2178,6 +2178,11 @@
         "date": "2026-11-15",
         "count": 0,
         "level": 0
+      },
+      {
+        "date": "2026-11-16",
+        "count": 4,
+        "level": 1
       }
     ]
   },
@@ -2239,7 +2244,7 @@
     "at": "2026-11-13T14:38:42Z",
     "branch": "main",
     "url": "https://github.com/r-utkarsh/r-utkarsh.github.io",
-    "updated_at": "2026-11-15T07:53:20.028Z"
+    "updated_at": "2026-11-16T08:01:21.195Z"
   },
-  "repos_updated_at": "2026-11-15T07:53:20.979Z"
+  "repos_updated_at": "2026-11-16T08:01:21.939Z"
 }
