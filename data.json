@@ -198,19 +198,6 @@
   ],
   "repos": [
     {
-      "name": "r-utkarsh.github.io",
-      "description": "",
-      "language": "JavaScript",
-      "stars": 0,
-      "archived": false,
-      "topics": [],
-      "homepage": null,
-      "url": "https://github.com/r-utkarsh/r-utkarsh.github.io",
-      "created_at": "2026-10-15T17:45:14Z",
-      "pushed_at": "2026-11-16T08:01:22Z",
-      "slug": "r-utkarsh.github.io"
-    },
-    {
       "name": "Leetcode-Submissions",
       "description": "Solutions and analysis for 350+ LeetCode problems in Java and C++",
       "language": "Java",
@@ -220,8 +207,21 @@
       "homepage": null,
       "url": "https://github.com/r-utkarsh/Leetcode-Submissions",
       "created_at": "2026-08-10T03:14:21Z",
-      "pushed_at": "2026-11-16T05:10:51Z",
+      "pushed_at": "2026-11-18T06:37:02Z",
       "slug": "leetcode-submissions"
+    },
+    {
+      "name": "r-utkarsh.github.io",
+      "description": "",
+      "language": "JavaScript",
+      "stars": 0,
+      "archived": false,
+      "topics": [],
+      "homepage": null,
+      "url": "https://github.com/r-utkarsh/r-utkarsh.github.io",
+      "created_at": "2026-10-15T17:45:14Z",
+      "pushed_at": "2026-11-17T09:15:05Z",
+      "slug": "r-utkarsh.github.io"
     },
     {
       "name": "interviewPrepPlatform",
@@ -351,8 +351,8 @@
   ],
   "contributions": {
     "username": "r-utkarsh",
-    "total": 570,
-    "updated_at": "2026-11-17T09:15:02.262Z",
+    "total": 580,
+    "updated_at": "2026-11-18T08:35:12.886Z",
     "days": [
       {
         "date": "2025-11-16",
@@ -2186,8 +2186,13 @@
       },
       {
         "date": "2026-11-17",
-        "count": 0,
-        "level": 0
+        "count": 8,
+        "level": 2
+      },
+      {
+        "date": "2026-11-18",
+        "count": 2,
+        "level": 1
       }
     ]
   },
@@ -2246,10 +2251,10 @@
   ],
   "last_push": {
     "repo": "r-utkarsh/Leetcode-Submissions",
-    "at": "2026-11-16T05:10:45Z",
+    "at": "2026-11-17T10:59:04Z",
     "branch": "main",
     "url": "https://github.com/r-utkarsh/Leetcode-Submissions",
-    "updated_at": "2026-11-17T09:15:02.994Z"
+    "updated_at": "2026-11-18T08:35:13.488Z"
   },
-  "repos_updated_at": "2026-11-17T09:15:03.957Z"
+  "repos_updated_at": "2026-11-18T08:35:14.123Z"
 }
