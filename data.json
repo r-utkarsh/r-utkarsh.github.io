@@ -198,6 +198,19 @@
   ],
   "repos": [
     {
+      "name": "r-utkarsh.github.io",
+      "description": "",
+      "language": "JavaScript",
+      "stars": 0,
+      "archived": false,
+      "topics": [],
+      "homepage": null,
+      "url": "https://github.com/r-utkarsh/r-utkarsh.github.io",
+      "created_at": "2026-10-15T17:45:14Z",
+      "pushed_at": "2026-11-18T08:35:15Z",
+      "slug": "r-utkarsh.github.io"
+    },
+    {
       "name": "Leetcode-Submissions",
       "description": "Solutions and analysis for 350+ LeetCode problems in Java and C++",
       "language": "Java",
@@ -209,19 +222,6 @@
       "created_at": "2026-08-10T03:14:21Z",
       "pushed_at": "2026-11-18T06:37:02Z",
       "slug": "leetcode-submissions"
-    },
-    {
-      "name": "r-utkarsh.github.io",
-      "description": "",
-      "language": "JavaScript",
-      "stars": 0,
-      "archived": false,
-      "topics": [],
-      "homepage": null,
-      "url": "https://github.com/r-utkarsh/r-utkarsh.github.io",
-      "created_at": "2026-10-15T17:45:14Z",
-      "pushed_at": "2026-11-17T09:15:05Z",
-      "slug": "r-utkarsh.github.io"
     },
     {
       "name": "interviewPrepPlatform",
@@ -351,8 +351,8 @@
   ],
   "contributions": {
     "username": "r-utkarsh",
-    "total": 580,
-    "updated_at": "2026-11-18T08:35:12.886Z",
+    "total": 583,
+    "updated_at": "2026-11-19T08:50:34.236Z",
     "days": [
       {
         "date": "2025-11-16",
@@ -2193,6 +2193,11 @@
         "date": "2026-11-18",
         "count": 2,
         "level": 1
+      },
+      {
+        "date": "2026-11-19",
+        "count": 3,
+        "level": 1
       }
     ]
   },
@@ -2254,7 +2259,7 @@
     "at": "2026-11-17T10:59:04Z",
     "branch": "main",
     "url": "https://github.com/r-utkarsh/Leetcode-Submissions",
-    "updated_at": "2026-11-18T08:35:13.488Z"
+    "updated_at": "2026-11-19T08:50:34.828Z"
   },
-  "repos_updated_at": "2026-11-18T08:35:14.123Z"
+  "repos_updated_at": "2026-11-19T08:50:35.529Z"
 }
