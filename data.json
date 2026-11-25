@@ -198,6 +198,19 @@
   ],
   "repos": [
     {
+      "name": "r-utkarsh.github.io",
+      "description": "",
+      "language": "JavaScript",
+      "stars": 0,
+      "archived": false,
+      "topics": [],
+      "homepage": null,
+      "url": "https://github.com/r-utkarsh/r-utkarsh.github.io",
+      "created_at": "2026-10-15T17:45:14Z",
+      "pushed_at": "2026-11-24T10:58:45Z",
+      "slug": "r-utkarsh.github.io"
+    },
+    {
       "name": "Leetcode-Submissions",
       "description": "Solutions and analysis for 350+ LeetCode problems in Java and C++",
       "language": "Java",
@@ -209,19 +222,6 @@
       "created_at": "2026-08-10T03:14:21Z",
       "pushed_at": "2026-11-24T04:34:59Z",
       "slug": "leetcode-submissions"
-    },
-    {
-      "name": "r-utkarsh.github.io",
-      "description": "",
-      "language": "JavaScript",
-      "stars": 0,
-      "archived": false,
-      "topics": [],
-      "homepage": null,
-      "url": "https://github.com/r-utkarsh/r-utkarsh.github.io",
-      "created_at": "2026-10-15T17:45:14Z",
-      "pushed_at": "2026-11-23T09:09:10Z",
-      "slug": "r-utkarsh.github.io"
     },
     {
       "name": "revenant",
@@ -391,7 +391,7 @@
   "contributions": {
     "username": "r-utkarsh",
     "total": 629,
-    "updated_at": "2026-11-24T10:58:42.587Z",
+    "updated_at": "2026-11-25T09:53:18.413Z",
     "days": [
       {
         "date": "2025-11-23",
@@ -2227,6 +2227,11 @@
         "date": "2026-11-24",
         "count": 4,
         "level": 1
+      },
+      {
+        "date": "2026-11-25",
+        "count": 0,
+        "level": 0
       }
     ]
   },
@@ -2288,7 +2293,7 @@
     "at": "2026-11-24T04:34:55Z",
     "branch": "main",
     "url": "https://github.com/r-utkarsh/Leetcode-Submissions",
-    "updated_at": "2026-11-24T10:58:43.247Z"
+    "updated_at": "2026-11-25T09:53:19.314Z"
   },
-  "repos_updated_at": "2026-11-24T10:58:44.162Z"
+  "repos_updated_at": "2026-11-25T09:53:20.186Z"
 }
